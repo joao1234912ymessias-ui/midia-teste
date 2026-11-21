@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DJ João Paulo | Mídia Kit</title>
+  <meta name="description" content="Mídia Kit oficial do DJ João Paulo: biografia, trajetória, hits, números e contato para shows.">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>document.documentElement.className="js";</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader"><img class="marca" src="logo.png" alt="DJ João Paulo"></div>
+<div class="progresso" id="progresso"></div>
+<canvas id="fundo" aria-hidden="true"></canvas>
+<div class="luz" id="luz" aria-hidden="true"></div>
+<div class="granulado" aria-hidden="true"></div>
+
+<header class="topo">
+  <a href="#inicio" class="topo-logo"><img class="marca" src="assets/logobranca.png" alt="DJ João Paulo"></a>
+  <nav class="menu" aria-label="Seções">
+    <a href="#biografia">Biografia</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#hits">Hits</a>
+    <a href="#spotify">Spotify</a>
+    <a href="#aftermovie">Aftermovie</a>
+    <a href="#contratar">Por que contratar</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-centro">
+      <img class="marca hero-logo" src="logo.png" alt="DJ João Paulo">
+      <p class="hero-frase" id="hero-frase"></p>
+      <div class="hero-botoes">
+        <a class="botao" href="#contato">Contratar para show</a>
+        <a class="botao vazado" href="#hits">Ouvir os hits</a>
+      </div>
+    </div>
+    <div class="rolar" aria-hidden="true"><span></span></div>
+  </section>
+
+  <div class="faixa" aria-hidden="true"><div class="faixa-trilho" id="faixa"></div></div>
+
+  <section class="numeros" aria-label="Números">
+    <div class="numeros-grade" id="numeros"></div>
+  </section>
+
+  <section class="secao" id="biografia">
+    <h2 class="rv">Quem é o DJ João Paulo ?</h2>
+    <div class="bio">
+      <div class="bio-texto rv" id="bio-texto"></div>
+      <div class="bio-fotos rv" id="bio-fotos"></div>
+    </div>
+  </section>
+
+  <section class="secao" id="trajetoria">
+    <h2 class="rv">Trajetória</h2>
+    <ol class="linha-tempo" id="linha-tempo"></ol>
+  </section>
+
+  <section class="secao" id="hits">
+    <h2 class="rv">Hits em Destaque</h2>
+    <div class="hits rv" id="hits-lista"></div>
+  </section>
+
+  <section class="secao" id="aftermovie">
+    <h2 class="rv">Aftermovie</h2>
+    <div class="videos rv" id="after-lista"></div>
+  </section>
+
+  <section class="secao" id="contratar">
+    <h2 class="rv">Por que contratar o DJ João Paulo</h2>
+    <div class="motivos rv" id="motivos"></div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2 class="rv">Vamos fechar a sua data?</h2>
+    <p id="contato-texto"></p>
+    <div class="contato-links" id="contato-links"></div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <img class="marca" src="logo.png" alt="DJ João Paulo">
+  <span id="rodape-texto"></span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
